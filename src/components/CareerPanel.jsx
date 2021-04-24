@@ -27,6 +27,20 @@ const CareerPanel = () => (
             </div>
           }
         />
+        <ul className="list-circle pl-4">
+          <li>
+            <Project
+              name="Hangzhou TOP Internet company project support"
+              desc="2021 Q1 Hangzhou TOP Internet Company 3000 points desktop expansion project.First of all, to expand the quota of Linux desktop. Secondly, they need the customer's daily office computer can access the cloud desktop. Also to ensure that the desktop runs on the customized thin terminal stable.
+              "
+              items={[
+              "As the project interface leader to complete the product project docking, overcome various difficulties to assist with technical issues. The Linux terminal project was completed two weeks ahead of schedule；",
+              "Established a Linux product support virtual team, led the team of 4 engineers to deal with a total of 40+cases, reviewed each engineer's case Daily, and provided investigation ideas；",
+              "Assist thin terminal manufacturers to complete custom development requirements and provide API interfaces；",
+              ]}
+            />
+          </li>
+        </ul>
       </li>
       <li>
         <Company
@@ -51,6 +65,30 @@ const CareerPanel = () => (
             </div>
           }
         />
+
+<ul className="list-circle pl-4">
+          <li>
+            <Project
+              name="Taiwan a large mobile phone chip company upgrade project support"
+              desc="Q4 2020 Taiwan a large mobile phone chip company product upgrade 1500 points desktop project. Customers need to upgrade OS from RedHat 6.9 to RedHat 7.6 .Need to ensure that existing software is compatible and stable.
+              "
+              items={[
+              "Propose the overall upgrade and optimization scheme based on the existing structure, and implement the upgrade together with on site engineers；",
+              "After upgrade environment successfully,I am the sole interface of Support Team to solve the technical problems in the testing phase of customer；",
+              "We provided special support to the American users of the company, responded in a timely manner within 24 hours to win the trust of the customers. The customers finally placed the order within the specified time；",
+              ]}
+            />
+          </li>
+          <li>
+            <Project
+              name="Project support for a domestic e-commerce company"
+              desc="During the Spring Festival in 2020, I worked with pre-sales engineers to urgently launch 4000 desktop points for an e-commerce company within a week.
+              To meet the needs of online customer service staff working from home. And cooperate with on site third-party engineers to deal with various technical problems encountered in the deployment process, especially voice call quality, security control and other key issues.
+              After successful implementation, it is highly recognized by customers."
+              items={[]}
+            />
+          </li>
+        </ul>
       </li>
 
       <li>

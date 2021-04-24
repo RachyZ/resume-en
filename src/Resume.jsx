@@ -10,7 +10,7 @@ export default function Resume() {
     <>
       <Header
         name="Rachy Zhang"
-        title="TAM"
+        title="TS"
         mobile="17816145080"
         experience="6"
         email="rachyz@163.com"
