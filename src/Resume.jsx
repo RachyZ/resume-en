@@ -12,7 +12,7 @@ export default function Resume() {
         name="Rachy Zhang"
         title="TS"
         mobile="17816145080"
-        experience="6"
+        experience="7"
         email="rachyz@163.com"
       />
       <div className="border-b my-5 border-gray-800 border-opacity-25"></div>

@@ -9,12 +9,41 @@ const CareerPanel = () => (
       Experience Details
     </h2>
     <ul className="list-disc pl-6">
+    <li>
+        <Company
+          name="Citrix System."
+          rank="Escalation Support Engineer"
+          beginTime="2022"
+          endTime="now"
+          desc={
+            <div>
+              <p>Mainly support GC cases escalate from Frontline engineer and provide log analysis support for FL. KPI top3;</p>
+              <p>
+              Act as an effective technical interface between customers and Eng/PM teams, clearly documenting customers’ pain points and feature enhancements customers need to be aware of;
+              </p>
+            </div>
+          }
+        />
+        <ul className="list-circle pl-4">
+          <li>
+            <Project
+              name="Car company project support"
+              desc="2000 point performance tuning support for car company. It needs to not only meet the high definition and smooth experience of graphic design for users of CATIA drawing software, but also ensure the basic needs of Office users."
+              items={[
+              "The Graphic performance issues block the delivery of the project. Customers's architecture is Double Hop and could not be changed.I solved a series of related problems such as screen glitter and hang issue for the client, and was recognized by the client；",
+              "Deeply analyze customer pain points together with sales, actively coordinate with R&D product team to join in and accelerate problem solving；",
+              "Continue to follow up various problems from users after project delivery and provide better user experience for customers；",
+              ]}
+            />
+          </li>
+        </ul>
+      </li>
       <li>
         <Company
           name="Citrix System."
           rank="Lead Technical Support Engineer"
           beginTime="2021"
-          endTime="now"
+          endTime="2022"
           desc={
             <div>
               <p>Take initiatives to address high-priority and severe customer cases;</p>
