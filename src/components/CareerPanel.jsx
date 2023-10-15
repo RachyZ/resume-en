@@ -12,8 +12,8 @@ const CareerPanel = () => (
     <li>
         <Company
           name="Citrix System."
-          rank="Escalation Support Engineer"
-          beginTime="2022"
+          rank="Lead Escalation Support Engineer"
+          beginTime="2023"
           endTime="now"
           desc={
             <div>
@@ -41,9 +41,9 @@ const CareerPanel = () => (
       <li>
         <Company
           name="Citrix System."
-          rank="Lead Technical Support Engineer"
+          rank="Escalation Support Engineer"
           beginTime="2021"
-          endTime="2022"
+          endTime="2023"
           desc={
             <div>
               <p>Take initiatives to address high-priority and severe customer cases;</p>

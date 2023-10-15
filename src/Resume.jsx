@@ -11,8 +11,8 @@ export default function Resume() {
       <Header
         name="Rachy Zhang"
         title="TS"
-        mobile="17816145080"
-        experience="7"
+        mobile="15251860920"
+        experience="8"
         email="rachyz@163.com"
       />
       <div className="border-b my-5 border-gray-800 border-opacity-25"></div>
