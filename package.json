@@ -17,8 +17,8 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "start": "craco start",
-    "build": "craco build",
+    "start": "craco start NODE_OPTIONS=--openssl-legacy-provider",
+    "build": "craco build NODE_OPTIONS=--openssl-legacy-provider",
     "test": "craco test",
     "eject": "react-scripts eject"
   },
